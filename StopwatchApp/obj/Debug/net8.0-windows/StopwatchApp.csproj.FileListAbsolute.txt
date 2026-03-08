@@ -1,0 +1,17 @@
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\bin\Debug\net8.0-windows\StopwatchApp.exe
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\bin\Debug\net8.0-windows\StopwatchApp.deps.json
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\bin\Debug\net8.0-windows\StopwatchApp.runtimeconfig.json
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\bin\Debug\net8.0-windows\StopwatchApp.dll
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\bin\Debug\net8.0-windows\StopwatchApp.pdb
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\bin\Debug\net8.0-windows\StopwatchApp.xml
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\obj\Debug\net8.0-windows\StopwatchApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\obj\Debug\net8.0-windows\StopwatchApp.AssemblyInfoInputs.cache
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\obj\Debug\net8.0-windows\StopwatchApp.AssemblyInfo.cs
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\obj\Debug\net8.0-windows\StopwatchApp.csproj.CoreCompileInputs.cache
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\obj\Debug\net8.0-windows\StopwatchApp.sourcelink.json
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\obj\Debug\net8.0-windows\StopwatchApp.dll
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\obj\Debug\net8.0-windows\refint\StopwatchApp.dll
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\obj\Debug\net8.0-windows\StopwatchApp.xml
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\obj\Debug\net8.0-windows\StopwatchApp.pdb
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\obj\Debug\net8.0-windows\StopwatchApp.genruntimeconfig.cache
+C:\Users\kobet\Documents\ARVR\Stopwatch-application\StopwatchApp\obj\Debug\net8.0-windows\ref\StopwatchApp.dll

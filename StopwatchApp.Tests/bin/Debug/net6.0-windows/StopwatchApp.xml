@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StopwatchApp</name>
+    </assembly>
+    <members>
+        <member name="T:StopwatchApp.MainForm">
+            <summary>
+            Main form for the Stopwatch application.
+            Wires up the UI controls to the StopwatchLogic class.
+            </summary>
+        </member>
+        <member name="M:StopwatchApp.MainForm.#ctor">
+            <summary>Initialises the form and all its child controls.</summary>
+        </member>
+        <member name="M:StopwatchApp.MainForm.InitialiseComponents">
+            <summary>Builds and lays out every control on the form.</summary>
+        </member>
+        <member name="M:StopwatchApp.MainForm.MakeButton(System.String,System.Drawing.Color,System.Drawing.Point)">
+            <summary>Helper that creates a styled button at the given position.</summary>
+            <param name="text">Button label.</param>
+            <param name="color">Background colour.</param>
+            <param name="location">Position on the form.</param>
+        </member>
+        <member name="M:StopwatchApp.MainForm.OnStart(System.Object,System.EventArgs)">
+            <summary>Starts the stopwatch from zero.</summary>
+        </member>
+        <member name="M:StopwatchApp.MainForm.OnPause(System.Object,System.EventArgs)">
+            <summary>Pauses the stopwatch and shows the current time in the status line.</summary>
+        </member>
+        <member name="M:StopwatchApp.MainForm.OnResume(System.Object,System.EventArgs)">
+            <summary>Resumes the stopwatch from the paused time.</summary>
+        </member>
+        <member name="M:StopwatchApp.MainForm.OnReset(System.Object,System.EventArgs)">
+            <summary>Resets the stopwatch back to 00:00:00.</summary>
+        </member>
+        <member name="M:StopwatchApp.MainForm.OnStop(System.Object,System.EventArgs)">
+            <summary>Stops the stopwatch and shows the final time.</summary>
+        </member>
+        <member name="M:StopwatchApp.MainForm.OnTick(System.Object,System.EventArgs)">
+            <summary>Called every second while the stopwatch is running.</summary>
+        </member>
+        <member name="M:StopwatchApp.MainForm.UpdateDisplay">
+            <summary>Refreshes the time label with the latest elapsed time.</summary>
+        </member>
+        <member name="M:StopwatchApp.MainForm.SetStatus(System.String)">
+            <summary>Updates the status label text.</summary>
+            <param name="message">The message to display.</param>
+        </member>
+        <member name="T:StopwatchApp.Program">
+            <summary>
+            Entry point for the Stopwatch application.
+            </summary>
+        </member>
+        <member name="M:StopwatchApp.Program.Main">
+            <summary>
+            Boots the Windows Forms application and opens the main form.
+            </summary>
+        </member>
+        <member name="T:StopwatchApp.StopwatchLogic">
+            <summary>
+            Handles all stopwatch state and time tracking logic.
+            Keeps the UI layer separate from the core timer behaviour.
+            </summary>
+        </member>
+        <member name="P:StopwatchApp.StopwatchLogic.IsRunning">
+            <summary>Gets whether the stopwatch is currently running.</summary>
+        </member>
+        <member name="P:StopwatchApp.StopwatchLogic.HasStarted">
+            <summary>Gets whether the stopwatch has ever been started (i.e. time > 0 or running).</summary>
+        </member>
+        <member name="M:StopwatchApp.StopwatchLogic.GetElapsedSeconds(System.Int32)">
+            <summary>
+            Returns the total elapsed seconds, including any time from the current session.
+            </summary>
+            <param name="currentSecond">The current second from the UI timer tick.</param>
+        </member>
+        <member name="M:StopwatchApp.StopwatchLogic.Start(System.Int32)">
+            <summary>
+            Starts the stopwatch from zero.
+            </summary>
+            <param name="currentSecond">The current second provided by the UI timer.</param>
+        </member>
+        <member name="M:StopwatchApp.StopwatchLogic.Pause(System.Int32)">
+            <summary>
+            Pauses the stopwatch and saves elapsed time so far.
+            </summary>
+            <param name="currentSecond">The current second at the moment of pausing.</param>
+        </member>
+        <member name="M:StopwatchApp.StopwatchLogic.Resume(System.Int32)">
+            <summary>
+            Resumes the stopwatch from where it was paused.
+            </summary>
+            <param name="currentSecond">The current second at the moment of resuming.</param>
+        </member>
+        <member name="M:StopwatchApp.StopwatchLogic.Reset">
+            <summary>
+            Resets all state back to zero without stopping the UI timer.
+            </summary>
+        </member>
+        <member name="M:StopwatchApp.StopwatchLogic.Stop(System.Int32)">
+            <summary>
+            Stops the stopwatch and saves the current elapsed time.
+            </summary>
+            <param name="currentSecond">The current second at the moment of stopping.</param>
+        </member>
+        <member name="M:StopwatchApp.StopwatchLogic.FormatTime(System.Int32)">
+            <summary>
+            Formats a total number of seconds into hh:mm:ss string format.
+            </summary>
+            <param name="totalSeconds">The total seconds to format.</param>
+            <returns>A string in the format 00:00:00.</returns>
+        </member>
+    </members>
+</doc>
